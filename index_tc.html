@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>安林財經印刷有限公司</title>
+    <link href="images/favicon.ico" rel="icon">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/tooltipster.min.css">
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="css/revolution/navigation.css">
+    <link rel="stylesheet" href="css/revolution/settings.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media screen and (max-width: 768px) {
+            .logo-large {
+                display: none !important;
+            }
+            .logo-small {
+                display: block !important;
+            }
+            .logo-container {
+                top: 30% !important;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar-nav" data-offset="75" class="offset-nav">
+<!--PreLoader-->
+<div class="loader">
+    <div class="loader-inner">
+        <div class="cssload-loader"></div>
+    </div>
+</div>
+<!--PreLoader Ends-->
+<!-- header -->
+<header class="site-header" id="header">
+    <nav class="navbar navbar-expand-lg fixed-bottom static-nav">
+        <div class="container">
+            <!-- 新增的按鈕 -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto ml-xl-auto mr-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active pagescroll" href="#home">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll scrollupto" href="#about">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#services">我們的服務</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#team">我們的團隊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#facilities">設施</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./IR/index.html" target="_blank">投資者關係</a>
+                    </li>					
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#recruitment">人才招聘</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#contact">聯絡我們</a>
+                    </li>
+                    <li class="nav-item" style="margin-left: 3rem">
+                        <a class="nav-link lang-select" href="index.html">Eng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lang-select" href="index_tc.html">繁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lang-select" href="index_sc.html">简</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--side menu open button-->
+        <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+            <span class="bg-dark"></span> <span class="bg-dark"></span> <span class="bg-dark"></span>
+        </a>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu opacity-0 gradient-bg">
+        <div class="overlay"></div>
+        <div class="inner-wrapper">
+            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active pagescroll" href="#home">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll scrollupto" href="#about">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#services">我們的服務</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#team">我們的團隊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#facilities">設施</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="./IR/index.html" target="_blank">投資者關係</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#recruitment">人才招聘</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#contact">聯絡我們</a>
+                    </li>
+                    <li class="nav-item" style="margin-left: 1rem">
+                        <a class="nav-link lang-select" href="index.html">Eng</a>
+                        <a class="nav-link lang-select" href="index_tc.html">繁</a>
+                        <a class="nav-link lang-select" href="index_sc.html">简</a>
+                    </li>
+               </ul>
+            </nav>
+            <div class="side-footer w-100">
+                <p class="whitecolor">&copy; <span id="year"></span> JAN Financial Press Limited</p>
+            </div>
+        </div>
+    </div>
+    <div id="close_side_menu" class="tooltip"></div>
+    <!-- End side menu -->
+</header>
+<!-- header -->
+
+<div class="bg1">
+
+<!--Main Slider-->
+<section id="home" class="p-0 light-slider single-slide">
+    <h2 class="d-none">hidden</h2>
+    <div id="rev_single_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="trax_slider_01">
+        <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
+        <div id="rev_single" class="rev_slider fullwidthabanner" data-version="5.4.8.1">
+            <ul>
+                <!-- slide -->
+                <li data-index="rs-layers" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- main image -->
+                    <div class="overlay overlay-dark opacity-3"></div>
+                    <img src="images/photo_main.jpg" data-bgcolor="#e0e0e0" alt=""  data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="9" class="rev-slidebg" data-no-retina>
+                    
+                    <div class="logo-container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 100%; text-align: center;">
+                        <img src="images/jan_logo.png" alt="logo" class="logo-large" style="max-width: 50%; height: auto;">
+                        <img src="images/jan_logo_s.png" alt="logo" class="logo-small" style="max-width: 50%; height: auto; display: none;">
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    </div>
+</section>
+<!--Main Slider ends -->
+
+
+<!-- About -->
+<section id="about" class="single-feature padding">
+    <div class="container">
+		<div class="offset-lg-2 text-left wow fadeInLeft" data-wow-delay="300ms">
+			<div class="heading-title">
+				<div class="block-title text-white">關於我們</div>
+			</div>
+		</div>
+    </div>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="block block1 col-sm-12 wow fadeInRight" data-wow-delay="300ms" style="">
+                <div class="d-flex mb-4">
+                    <img alt="SEO" src="images/logo.png" style="width:100px">
+					<h3 class="text-white" style="padding-left: 10px; align-self: flex-end; ">安林財經印刷有限公司</h3>
+                </div>
+                <p class="text-white bottom35" >熟悉的面孔打造煥然一新的品牌</p>
+                <p class="text-white bottom35" >安林財經印刷有限公司在財經印刷市場擁有豐富的行業知識和經驗，竭誠為<a href="#services"><span class="text-warning">一級市場客戶</span></a>和<a href="#services"><span class="text-danger">二級市場客戶</span></a>提供一流的服務。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About ends-->
+
+<!-- Services -->
+<section id="services" class="padding">
+    <div class="container">
+		<div class="text-left wow fadeInLeft" data-wow-delay="300ms">
+			<div class="heading-title mb-lower">
+				<div class="block-title text-white">我們的服務</div>
+			</div>
+		</div>
+    </div>
+    <div class="container">
+            <div class="block block2 row wow d-flex fadeInRight" data-wow-delay="300ms" >
+                <div class="imgcontainer col-lg-5">
+					<img src="images\service1.jpg">
+				</div>
+                <div class="offset-lg-1 col-lg-5 block2scroll">
+					<div>
+						<p class="text-white" >財經印刷服務：</p>
+						<p class="text-white" ><span class="text-warning">一級市場客戶</span>方面，<span class="text-dark">首次公開發售</span>招股書是開啟發行人與投資者溝通渠道的最重要文件。作為您的首選財經印刷商，<a href="#team"><span class="text-success">我們的團隊</span></a>在排版和翻譯工序上一絲不苟，堅守「準確度」和「高效率」兩大準則。</p>
+						<p class="text-white bottom35" ><span class="text-danger">二級市場客戶</span>方面，上市公司需要定期作出<span class="text-dark">財務報表與環境、社會及管治資訊、通函以及公告及通告</span>等文件披露。<a href="#team"><span class="text-success">我們的團隊</span></a>全天候提供一站式服務方案，涵蓋設計、排版、翻譯、印刷及上載至監管機構和客戶網站等環節。</p>
+						<p class="text-white" >我們的服務：</p>
+						<p class="text-white bottom35" >除了提供一般財經印刷服務外，我們亦為上市公司提供<span class="text-dark">網頁寄存服務</span>，亦可提供<span class="text-dark">會議室設施</span>，供客戶舉行會議、培訓和研討會。</p>
+					</div>
+				</div>	
+            </div>
+    </div>
+</section>
+<!-- Services ends-->
+
+<!-- Team -->
+<section id="team" class="padding">
+    <div class="container">
+		<div class="text-sm-left wow fadeInLeft" data-wow-delay="300ms">
+			<div class="heading-title mb-lower">
+				<div class="block-title text-white text-right">我們的團隊</div>
+			</div>
+		</div>
+    </div>
+    <div class="container">
+            <div class="block block3 row wow d-flex fadeInRight" data-wow-delay="300ms" >
+                <div class="imgteam imgcontainer col-lg-7" style="padding: 0">
+					<img src="images\team.jpg" style="width:100%">
+				</div>
+                <div class="col-lg-5 block3scroll" >
+					<div id ="teamtext">
+						<p class="text-white bottom35">相較業內僅專注於科技的公司，我們一向將人才視為最寶貴資產。</p>
+					</div>
+				</div>	
+            </div>
+			<div class="col-sm-12 d-flex team-button-container">
+				<div class="team-button inline-block" id="team-1" onclick="changeteam(1, 'TC');">銷售及市場推廣團隊</div>
+				<div class="team-button inline-block" id="team-2" onclick="changeteam(2, 'TC');">創意設計團隊</div>
+				<div class="team-button inline-block" id="team-3" onclick="changeteam(3, 'TC');">客戶服務團隊</div>
+				<div class="team-button inline-block" id="team-4" onclick="changeteam(4, 'TC');">桌面排版團隊</div>
+				<div class="team-button inline-block" id="team-5" onclick="changeteam(5, 'TC');">翻譯團隊</div>
+			</div>	
+    </div>
+</section>
+<!-- Team ends-->
+
+<!-- Facilities -->
+<section id="facilities" class="padding">
+    <div class="container">
+		<div class="text-sm-left wow fadeInLeft" data-wow-delay="300ms">
+			<div class="heading-title mb-lower">
+				<div class="block-title text-white">設施</div>
+			</div>
+		</div>
+    </div>
+    <div class="container">
+            <div class="block block4 row wow d-flex fadeInRight" data-wow-delay="300ms" >
+                <div class="imgfac imgcontainer col-lg-7" style="padding: 0">
+					<img src="images\facilities1.jpg" style="width:100%">
+				</div>
+                <div class="col-lg-5 block4scroll" style="padding:0 5%; margin-top: 10%">
+					<div>
+						<p class="text-white bottom35">本公司位於中環商務中心區，設有24小時開放的會議室設施，我們隨時待命為客戶效勞。</p>
+					</div>
+				</div>	
+            </div>
+			<div class="col-sm-12 d-flex fac-button-container">
+				<div class="fac-button inline-block" id="fac-1" onclick="changeFacility(1);"><img src="images\facilities2.jpg" style="width:100%"></div>
+				<div class="fac-button inline-block" id="fac-2" onclick="changeFacility(2);"><img src="images\facilities3.jpg" style="width:100%"></div>
+				<div class="fac-button inline-block" id="fac-3" onclick="changeFacility(3);"><img src="images\facilities4.jpg" style="width:100%"></div>
+				<div class="fac-button inline-block" id="fac-4" onclick="changeFacility(4);"><img src="images\facilities5.jpg" style="width:100%"></div>
+				<div class="fac-button inline-block" id="fac-5" onclick="changeFacility(5);"><img src="images\facilities6.jpg" style="width:100%"></div>
+			</div>				
+    </div>
+</section>
+<!-- Facilities ends-->
+
+<!-- Recruitment -->
+<section id="recruitment" class="padding">
+    <div class="container">
+		<div class="text-sm-left wow fadeInLeft" data-wow-delay="300ms">
+			<div class="heading-title mb-lower">
+				<div class="block-title text-white text-right">人才招聘</div>
+			</div>
+		</div>
+    </div>
+    <div class="container">
+            <div class="block block5 row wow d-flex fadeInRight" data-wow-delay="300ms" >
+                <div class="imgteam imgcontainer col-lg-7" style="padding: 0">
+					<img src="images\recruit.jpg" style="width:100%">
+				</div>
+                <div class="col-lg-5 block3scroll" >
+					<div id ="teamtext">
+						<p class="text-white bottom35">相較業內僅專注於科技的公司，我們一向將人才視為最寶貴資產。</p>
+					</div>
+				</div>	
+            </div>
+    </div>
+</section>
+<!-- Recruitment ends-->
+
+
+<!--Site Footer Here-->
+<footer id="contact" class=" bgdark padding_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20">
+                    <a href="index.html" class="footer_logo"><img src="images/logo1.png" alt="trax"></a>
+                    <p class="whitecolor bottom25">熟悉的面孔打造煥然一新的品牌</p>
+                    <div class="d-table w-100 address-item whitecolor bottom25">
+                        <span class="d-table-cell align-middle"><i class="fas fa-mobile-alt"></i></span>
+                        <p class="d-table-cell align-middle bottom0">
+                            +852 2158 2888 <a class="d-block" href="mailto:as@janfp.com">as@janfp.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20 pl-0 pl-lg-5">
+                    <h3 class="whitecolor bottom25">網站內容</h3>
+                    <ul class="links">
+                        <li><a href="#home" class="pagescroll">首頁</a></li>
+                        <li><a href="#about" class="pagescroll scrollupto">關於我們</a></li>
+                        <li><a href="#services" class="pagescroll">我們的服務</a></li>
+                        <li><a href="#team" class="pagescroll">我們的團隊</a></li>
+                        <li><a href="#facilities" class="pagescroll">設施</a></li>
+						<li><a href="./IR/index.html" >投資者關係</a></li>
+                        <li><a href="#recruitment" class="pagescroll">人才招聘</a></li>
+                        <li><a href="#contact" class="pagescroll">聯絡我們</a></li>
+                    </ul>
+                </div>
+            </div>
+			
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20">
+                    <h3 class="whitecolor bottom25">地址</h3>
+                    <p class="whitecolor bottom25">香港中環干諾道中十三至十四號<br>歐陸貿易中心二十二樓</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer ends-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<!--Bootstrap Core-->
+<script src="js/propper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--to view items on reach-->
+<script src="js/jquery.appear.js"></script>
+<!--Owl Slider-->
+<script src="js/owl.carousel.min.js"></script>
+<!--number counters-->
+<script src="js/jquery-countTo.js"></script>
+<!--Parallax Background-->
+<script src="js/parallaxie.js"></script>
+<!--Cubefolio Gallery-->
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<!--Fancybox js-->
+<script src="js/jquery.fancybox.min.js"></script>
+<!--Tooltip js-->
+<script src="js/tooltipster.min.js"></script>
+<!--wow js-->
+<script src="js/wow.js"></script>
+<!--Revolution SLider-->
+<script src="js/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+
+<!--custom functions and script-->
+<script src="js/functions.js"></script>
+</body>
+
+</html>
